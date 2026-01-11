@@ -7,10 +7,10 @@ This is a real-time and robust system for 3D mapping and fruit localization in d
 ## 🧠 Network Architecture
 
 **Pipeline**  
-![Our System Overview](figures/The overall framework of system.png)
+![Our System Overview](figures/The_overall_framework_of_system.png)
 
 **EFSegNet Semantic Segmentation Structure**  
-![EFSegNet](figures/The overall framework of EFSegNet.png)
+![EFSegNet](figures/The_overall_framework_of_EFSegNet.png)
 
 ---
 
