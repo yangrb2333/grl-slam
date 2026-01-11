@@ -9,7 +9,7 @@ This is a real-time and robust system for 3D mapping and fruit localization in d
 **Pipeline**  
 ![Our System Overview](figures/grl_slam_framework.png)
 
-**PIDSNet Semantic Segmentation Structure**  
+**EFSegNet Semantic Segmentation Structure**  
 ![EFSegNet](figures/pidsnet_framework.png)
 
 ---
@@ -27,7 +27,7 @@ This is a real-time and robust system for 3D mapping and fruit localization in d
 ## 📷 Visual Results
 
 ### 🔍 Semantic Segmentation
-PIDSNet accurately segments grape bunches and pedestrians in complex vineyard scenes.
+EFSegNet accurately segments grape bunches and pedestrians in complex vineyard scenes.
 
 **Static Scene**  
 ![Segmentation Static](figures/segmentation_static.png)
