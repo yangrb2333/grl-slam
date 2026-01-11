@@ -1,22 +1,22 @@
-# GRL-SLAM: Real-Time 3D Vineyard Mapping and Fruit Localization Using Lightweight PIDSNet in Dynamic Environments
+# A Real-Time Semantic 3D Vineyard Mapping and Fruit Localization System for Yield Estimation in Dynamic Vineyards
 
-**GRL-SLAM** is a real-time and robust system for 3D mapping and fruit localization in dynamic vineyard environments. It combines the ORB-SLAM3 framework with a lightweight semantic segmentation network (PIDSNet), dynamic feature filtering, point cloud optimization, and ellipsoid-based grape bunch localization.
+This is a real-time and robust system for 3D mapping and fruit localization in dynamic vineyard environments. It combines the ORB-SLAM3 framework with a lightweight semantic segmentation network (EFSegNet), dynamic feature filtering, point cloud optimization, and ellipsoid-based grape bunch localization.
 
 ---
 
 ## 🧠 Network Architecture
 
-**GRL-SLAM Pipeline**  
-![GRL-SLAM Overview](figures/grl_slam_framework.png)
+**Pipeline**  
+![Our System Overview](figures/grl_slam_framework.png)
 
 **PIDSNet Semantic Segmentation Structure**  
-![PIDSNet](figures/pidsnet_framework.png)
+![EFSegNet](figures/pidsnet_framework.png)
 
 ---
 
 ## 🔧 Features
 
-- 🧠 **PIDSNet**: A lightweight segmentation network with attention-based enhancements.
+- 🧠 **EFSegNet**: A lightweight segmentation network with attention-based enhancements.
 - 🧹 **Dynamic Object Filtering**: Removes pedestrians and moving elements to stabilize SLAM.
 - 🌐 **3D Semantic Mapping**: Embeds fruit information into point clouds.
 - 🍇 **3D Grape Localization**: Uses DBSCAN and PCA for ellipsoid modeling.
